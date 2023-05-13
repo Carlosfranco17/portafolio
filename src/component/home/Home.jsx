@@ -11,7 +11,7 @@ const Home = () => {
 {/* hijo 1 */}
       <div className=" img ">
 
-<img className="photo" src="/public/images/1681398897987.jpg" alt="" />
+<img className="photo" src="/images/1681398897987.jpg" alt="" />
 
 </div>
 
@@ -20,7 +20,7 @@ const Home = () => {
 
         <div className="profile">
           <h1 className="name">Carlos Franco Castaño</h1>
-          <h2 className="work">FrontEnd developer</h2>
+          <h2 className="work">Front-End developer</h2>
          
 
           <div className="information">
