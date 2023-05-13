@@ -10,7 +10,7 @@ const Nav = () => {
     <i className='bx bx-menu'></i></label>
 
 
-<a href="" className='enlace'><h1 className='logo'><span>C.</span><span>Franco</span></h1></a>
+<a href="" className='enlace'><h1 className='logo'><span className='text-[#32e3e9]' >C.Fra</span><span>nco</span></h1></a>
 
 <ul>
     <li><a href="">Inicio</a></li>

@@ -1,0 +1,9 @@
+
+.main{
+    background: linear-gradient(#0e002fd3, #0e002fd3), url("/public/images/portal.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+    
+}
