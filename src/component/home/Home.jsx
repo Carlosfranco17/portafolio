@@ -25,10 +25,10 @@ const Home = () => {
 
           <div className="information">
             <div className="redes">
-              <span className="">
+              <span className="text-gray-500">
                 <i class="bx bxl-github"></i>
-              </span>{" "}
-              <span>
+              </span>
+              <span className="text-blue-500">
                 <i class="bx bxl-linkedin-square"></i>
               </span>
             </div>

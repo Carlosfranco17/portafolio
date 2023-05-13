@@ -3,6 +3,7 @@
 }
 
 .home{
+    
     padding-top: 100px;
     min-height: 100vh;
 
@@ -14,6 +15,7 @@
     align-items: center;
     width: 100%;
     height: 100vh;
+    gap:50px;
        
 }
 .profile{
@@ -146,6 +148,14 @@ justify-content: center;
 
     .work{
         font-size:35px ;
+    }
+
+    .name{
+        font-size: 20px;
+    }
+
+    .photo{
+        width: 200px;
     }
    
 
