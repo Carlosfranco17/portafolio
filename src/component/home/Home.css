@@ -157,6 +157,11 @@ justify-content: center;
     .photo{
         width: 200px;
     }
+
+    .home{
+
+        padding-top: 150px;
+    }
    
 
 }
