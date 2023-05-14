@@ -1,9 +1,11 @@
+
 .projects {
-  display: flex;
+  border:1px solid green;
+  display: grid;
+  gap:100px;
   justify-content: center;
   width: 100%;
   min-height: 100%;
-
   padding-top: 100px;
   padding-bottom: 100px;
 }
@@ -15,7 +17,7 @@
   width: 100%;
   grid-template-columns: repeat(3, 1fr);
   border: 1px solid red;
-  grid-gap: 20px;
+  grid-gap: 85px;
 }
 
 .card{
@@ -55,7 +57,7 @@ font-weight: bold;
         width: 100%;
         grid-template-columns: repeat(2, 1fr);
         border: 1px solid red;
-        grid-gap: 20px;
+        grid-gap:20px;
       }
 
 
@@ -64,6 +66,7 @@ font-weight: bold;
     @media (max-width: 858px) {
 
         .cards {
+           
             display: grid;
             justify-items: center;
             align-items: center;
@@ -71,6 +74,7 @@ font-weight: bold;
             grid-template-columns: repeat(1, 1fr);
             border: 1px solid red;
             grid-gap: 20px;
+            
           }
 
 
