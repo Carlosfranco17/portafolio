@@ -13,6 +13,8 @@ padding: 10px;
 /* border: 1px solid red; */
 width: 50%;
 
+
+
 }
 
 .abouttext{
@@ -49,6 +51,17 @@ background-color: rgba(255, 255, 255, 0.541);
 
 .abouttext{
     width: 100%;
+    padding: 5px;
+}
+
+.img2{
+    width: 100%;
+  
+}
+.aboutimg{
+    width: 100%;
+    display: flex;
+   align-items: center;
 }
     
 
@@ -61,5 +74,14 @@ background-color: rgba(255, 255, 255, 0.541);
         font-size: 16px;
     }
 
+    .aboutimg{
+        padding: 10px;
+        /* border: 1px solid red; */
+        width: 100%;
 
+    }
+    .img2{
+        width: 100%;
+      
+    }
 }
