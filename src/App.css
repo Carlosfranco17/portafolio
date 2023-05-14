@@ -2,7 +2,7 @@
     scroll-behavior: smooth;
 }
 .main{
-    background: linear-gradient(#0e002fd3, #0e002fd3), url("/public/images/portal.png");
+    background: linear-gradient(#0e002fd3, #0e002fd3), url("/public/images/portal.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

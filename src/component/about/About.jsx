@@ -40,7 +40,7 @@ const About = () => {
         <div className="aboutparagrapho">
           {/* {old && ( */}
           <p>
-            ¡Hola! Mi nombre es Carlos Franco Castaño, tengo {old} soy una
+            ¡Hola! Mi nombre es Carlos Franco Castaño, tengo {old} años soy una
             persona proactiva y apasionada por el mundo de la Programacion y el
             desarrollo web. Desde muy joven, siempre he tenido interés en todo
             lo relacionado con la informática, y gracias a mi diciplina y

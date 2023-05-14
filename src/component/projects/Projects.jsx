@@ -19,6 +19,19 @@ const Projects = () => {
               alt=""
             />
           </div>
+
+<div className="infocard">
+
+  <h2 className="namecard">
+    E-Commerce
+  </h2>
+  <div className="linkcard" >
+  <a href=""><i className='bx bx-link-external'></i></a>
+<a href=""><i className=' bx bxl-github'></i></a>
+  </div>
+</div>
+<p className="textcard">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error rerum corporis quisquam </p>
+
         </div>
 
         <div className="card">
@@ -28,6 +41,17 @@ const Projects = () => {
               alt=""
             />
           </div>
+          <div className="infocard">
+
+  <h2 className="namecard">
+  rick and morty dimensions
+  </h2>
+  <div className="linkcard" >
+  <a href=""><i className='bx bx-link-external'></i></a>
+<a href=""><i className='bx bxl-github'></i></a>
+  </div>
+</div>
+<p className="textcard">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error rerum corporis quisquam </p>
         </div>
 
         <div className="card">
@@ -37,6 +61,17 @@ const Projects = () => {
               alt=""
             />
           </div>
+          <div className="infocard">
+
+  <h2 className="namecard">
+    CRUD'S
+  </h2>
+  <div className="linkcard" >
+ <a href=""> <i className='bx bx-link-external'></i></a>
+<a href=""><i className='bx bxl-github'></i></a>
+  </div>
+</div>
+<p className="textcard">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error rerum corporis quisquam </p>
         </div>
 
         <div className="card">
@@ -46,6 +81,17 @@ const Projects = () => {
               alt=""
             />
           </div>
+          <div className="infocard">
+
+  <h2 className="namecard">
+    bOLG DE MASCOTAS
+  </h2>
+  <div className="linkcard" >
+ <a href=""> <i className='bx bx-link-external'></i></a>
+<a href=""><i className='bx bxl-github'></i></a>
+  </div>
+</div>
+<p className="textcard">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error rerum corporis quisquam </p>
         </div>
 
         <div className="card">
@@ -55,6 +101,17 @@ const Projects = () => {
               alt=""
             />
           </div>
+          <div className="infocard">
+
+  <h2 className="namecard">
+    CONSEJOS MILLONARIOS
+  </h2>
+  <div className="linkcard" >
+ <a href=""> <i className='bx bx-link-external'></i></a>
+<a href=""><i className='bx bxl-github'></i></a>
+  </div>
+</div>
+<p className="textcard">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error rerum corporis quisquam </p>
         </div>
 
         <div className="card">
@@ -64,6 +121,17 @@ const Projects = () => {
               alt=""
             />
           </div>
+          <div className="infocard">
+
+  <h2 className="namecard">
+    APP DEL CLIMA
+  </h2>
+  <div className="linkcard" >
+  <a href=""><i className='bx bx-link-external'></i></a>
+<a href=""><i className='bx bxl-github'></i></a>
+  </div>
+</div>
+<p className="textcard">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error rerum corporis quisquam </p>
         </div>
       </section>
     </section>

@@ -1,6 +1,5 @@
 
 .projects {
-  border:1px solid green;
   display: grid;
   gap:100px;
   justify-content: center;
@@ -16,8 +15,7 @@
   align-items: center;
   width: 100%;
   grid-template-columns: repeat(3, 1fr);
-  border: 1px solid red;
-  grid-gap: 85px;
+  grid-gap: 80px;
 }
 
 .card{
@@ -26,6 +24,30 @@
     width: 250px;
     background-color:#0e002fd3;
     border-radius: 50px;
+    transition-duration: 2000ms;
+    opacity: 0;
+    animation: appear 1s ease-out forwards;
+}
+
+
+
+@keyframes appear {
+  from {
+    opacity: 0;
+    transform: translateY(20px); /* agregamos una pequeña animación de desplazamiento hacia arriba */
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+
+.card:hover{
+  width: 260px;
+  height:310px;
+  transition-duration: 2000ms;
 }
 
 .divimg{
@@ -43,11 +65,58 @@ font-size: 50px;
 text-transform: uppercase;
 font-weight: bold;
 }
+
 .imgproject{
     width: 100%;
     border-top-left-radius: 50px;
     border-top-right-radius: 50px;
 }
+
+.infocard{
+
+display: flex;
+justify-content: space-between;
+padding: 4px 8px;
+}
+
+.namecard{
+font-size: 14px;
+color:#32e3e9;
+text-transform: uppercase;
+font-weight: bold;
+
+
+}
+
+.linkcard{
+display: flex;
+justify-content: space-between;
+width: 20%;
+
+
+  font-size: 22px;
+
+
+
+}
+.textcard{
+padding: 8px 8px;
+color: white;
+}
+
+.bx-link-external{
+
+color:white;
+
+}
+
+.bxl-github{
+
+color:gray;
+
+}
+
+
 @media (max-width: 952px) {
 
     .cards {
@@ -56,7 +125,6 @@ font-weight: bold;
         align-items: center;
         width: 100%;
         grid-template-columns: repeat(2, 1fr);
-        border: 1px solid red;
         grid-gap:20px;
       }
 
@@ -72,7 +140,6 @@ font-weight: bold;
             align-items: center;
             width: 100%;
             grid-template-columns: repeat(1, 1fr);
-            border: 1px solid red;
             grid-gap: 20px;
             
           }

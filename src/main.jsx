@@ -6,6 +6,7 @@ import './index.css'
  import './component/home/Home.css'
  import './component/about/About.css'
  import './component/projects/Projects.css'
+ import './component/technology/Technology.css'
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
