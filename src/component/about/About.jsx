@@ -1,34 +1,72 @@
-import React from 'react'
+import React, { useEffect, useState } from "react";
 
 const About = () => {
+  const [old, setOld] = useState();
+
+ useEffect(() => {
+   
+  const edadactual = () => {
+    let todayYear = new Date();
+    let year = todayYear.getFullYear();
+    
+    
+    let todayMonth = new Date();
+    let mes = todayMonth.getMonth()+1;
+  
+    
+    let todayDay = new Date();
+    let day = todayDay.getDate();
+  
+    
+    let edad = year - 1997;
+
+    if (mes < 4) {
+      edad--;
+    } else if (mes === 4) {
+      if (day < 17) {
+        edad--;
+      }
+    }
+
+    return edad
+  };
+
+
+  setOld(edadactual)
+   
+ }, [])
+ 
+
+
+
+
+
+  
+
   return (
-    <section className='about'>
+    <section id="about" className="about">
+      <div className="aboutimg">
+        <img className="img2" src="/images/aboutMe.png" alt="" />
+      </div>
 
-
-<div className='aboutimg'>
-
-<img className='img2' src="/images/aboutMe.png" alt="" />
-
-</div>
-
-
-<div className='abouttext'>
-
-<div className='aboutparagrapho'>
-
-<p>
-¡Hola! Mi nombre es nombre, un edad-añero/a apasionado/a por el mundo de la tecnología y el diseño web. Desde muy joven, siempre he tenido interés en todo lo relacionado con la informática, y gracias a mi curiosidad y perseverancia, he adquirido conocimientos en diferentes áreas que me han llevado a especializarme en el desarrollo web.
-</p>
-
-</div>
-
-
-
-</div>
-
-
+      <div className="abouttext">
+        <div className="aboutparagrapho">
+      
+        {/* {old && ( */}
+            <p>
+              ¡Hola! Mi nombre es Carlos Franco Castaño, tengo {old} soy una
+              persona proactiba y apasionada por el mundo de la tecnología y el
+              diseño web. Desde muy joven, siempre he tenido interés en todo lo
+              relacionado con la informática, y gracias a mi diciplina y
+              constancia, he adquirido conocimientos en diferentes áreas que me
+              han llevado a especializarme como desarrollador web front-End.
+            </p>
+          {/* )} */}
+          
+        </div>
+      </div>
     </section>
-  )
-}
+  );
+};
 
-export default About
+export default About;

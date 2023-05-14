@@ -2,7 +2,7 @@ import React from "react";
 
 const Home = () => {
   return (
-    <section className="home ">
+    <section id="home" className="home ">
 
 {/* padre */}
       <div className="Presentation">
@@ -27,10 +27,10 @@ const Home = () => {
           <div className="information">
             <div className="redes">
               <span className="text-gray-500">
-                <i class="bx bxl-github"></i>
+                <i className="bx bxl-github"></i>
               </span>
               <span className="text-blue-500">
-                <i class="bx bxl-linkedin-square"></i>
+                <i className="bx bxl-linkedin-square"></i>
               </span>
             </div>
 

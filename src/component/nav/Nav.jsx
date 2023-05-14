@@ -13,8 +13,8 @@ const Nav = () => {
 <a href="" className='enlace'><h1 className='logo'><span className='text-[#32e3e9]' >C.Fra</span><span>nco</span></h1></a>
 
 <ul>
-    <li><a href="">Inicio</a></li>
-    <li><a href="">Acerca de mi</a></li>
+    <li><a href="#home">Inicio</a></li>
+    <li><a href="#about">Acerca de mi</a></li>
     <li><a href="">Proyectos</a></li>
     <li><a href="">Tecnologia</a></li>
     <li><a href="">Contactame</a></li>
