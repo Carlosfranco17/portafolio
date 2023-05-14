@@ -2,7 +2,7 @@ import React from "react";
 
 const Home = () => {
   return (
-    <section className="home border-[2px] border-red-500">
+    <section className="home ">
 
 {/* padre */}
       <div className="Presentation">
@@ -36,7 +36,7 @@ const Home = () => {
 
             <div className="cv">
              
-              <button className="download">Descargar cv</button>
+              <button className="download">Download cv</button>
             </div>
           </div>
         </div>

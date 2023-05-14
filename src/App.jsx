@@ -1,5 +1,6 @@
 
 import './App.css'
+import About from './component/about/About'
 import Home from './component/home/Home'
 import Nav from './component/nav/Nav'
 
@@ -10,6 +11,7 @@ function App() {
     <main className='main'>
       <Nav/>
       <Home/>
+      <About/>
     </main>
   )
 }

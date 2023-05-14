@@ -4,6 +4,7 @@ import App from './App.jsx'
 import './index.css'
  import './component/nav/Nav.css'
  import './component/home/Home.css'
+ import './component/about/About.css'
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(

@@ -1,0 +1,65 @@
+.about{
+display: flex;
+/* border: 1px solid red; */
+min-height: 100vh;
+padding: 40px;
+gap: 40px;
+min-height: 100%;
+
+
+}
+.aboutimg{
+padding: 10px;
+/* border: 1px solid red; */
+width: 50%;
+
+}
+
+.abouttext{
+
+ 
+padding: 20px;
+/* border: 1px solid red; */
+width: 50%;
+border-radius: 50px;
+min-height: 500px;
+
+
+}
+
+
+.aboutparagrapho{
+font-size: 2rem;
+border-radius: 50px;
+padding: 40px;
+font-size:25px;
+background-color: rgba(255, 255, 255, 0.541);
+
+}
+.img2{
+    width: 100%;
+}
+
+
+
+@media (max-width: 952px) {
+.about{
+    display: block;
+}
+
+.abouttext{
+    width: 100%;
+}
+    
+
+
+}
+
+
+@media (max-width: 858px) {
+    .aboutparagrapho{
+        font-size: 16px;
+    }
+
+
+}
