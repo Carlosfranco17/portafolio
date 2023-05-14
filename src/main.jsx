@@ -5,6 +5,7 @@ import './index.css'
  import './component/nav/Nav.css'
  import './component/home/Home.css'
  import './component/about/About.css'
+ import './component/projects/Projects.css'
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(

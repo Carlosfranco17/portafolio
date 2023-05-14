@@ -11,7 +11,7 @@ const Home = () => {
 {/* hijo 1 */}
       <div className=" img ">
 
-<img className="photo" src="/images/1681398897987.jpg" alt="" />
+<img className="photo" src="https://media.licdn.com/dms/image/D4E03AQHpd5DrFHzs5Q/profile-displayphoto-shrink_800_800/0/1681398897987?e=1689811200&v=beta&t=A_zEuvyO8OT_GEcVs09u9Ez81tA8CZEXhIVXHZC8WzM" alt="" />
 
 </div>
 
@@ -27,10 +27,10 @@ const Home = () => {
           <div className="information">
             <div className="redes">
               <span className="text-gray-500">
-                <i className="bx bxl-github"></i>
+                <a target="_blank" href="https://github.com/Carlosfranco17"><i className="bx bxl-github"></i></a>
               </span>
               <span className="text-blue-500">
-                <i className="bx bxl-linkedin-square"></i>
+                <a target="_blank" href="https://www.linkedin.com/in/carlos-franco-casta%C3%B1o-47456a264/"><i className="bx bxl-linkedin-square"></i></a>
               </span>
             </div>
 
