@@ -7,6 +7,7 @@ import './index.css'
  import './component/about/About.css'
  import './component/projects/Projects.css'
  import './component/technology/Technology.css'
+ import './component/contact/Contact.css'
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(

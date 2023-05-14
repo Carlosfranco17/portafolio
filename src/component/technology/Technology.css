@@ -1,4 +1,21 @@
 .technology{
+
+    
+    padding-top: 100px;
+    padding-bottom: 100px;
     width: 100%;
     min-height: 100vh;
+    display: grid;
+    justify-items: center;
+    gap:40px;
+    grid-template-columns: repeat(3, 1fr);
+    z-index: 0;
+}
+
+.cardtech{
+   
+    width: 150px;
+    height: 150px;
+    
+
 }

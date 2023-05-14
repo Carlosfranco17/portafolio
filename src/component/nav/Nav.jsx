@@ -16,8 +16,8 @@ const Nav = () => {
     <li><a href="#home">Inicio</a></li>
     <li><a href="#about">Acerca de mi</a></li>
     <li><a href="#projects">Proyectos</a></li>
-    <li><a href="">Tecnologia</a></li>
-    <li><a href="">Contactame</a></li>
+    <li><a href="#technology">Tecnologia</a></li>
+    <li><a href="#contact">Contactame</a></li>
 </ul>
 
 

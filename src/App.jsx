@@ -1,6 +1,7 @@
 
 import './App.css'
 import About from './component/about/About'
+import Contact from './component/contact/Contact'
 import Home from './component/home/Home'
 import Nav from './component/nav/Nav'
 import Projects from './component/projects/Projects'
@@ -16,6 +17,7 @@ function App() {
       <About/>
       <Projects/>
       <Technology/>
+      <Contact/>
     </main>
   )
 }
