@@ -1,6 +1,123 @@
-.contact{
-    width: 100%;
-    min-height:100vh;
+*{
+    font-family: 'Barlow Condensed', sans-serif;
+}
 
-    background-color: #0e002f;
+.contact {
+   
+    padding-top:100px ;
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(#0e002f, #0e002fd7),
+    url("/public/images/code.jpg");
+}
+
+.titlecontact{
+    font-family: 'Barlow Condensed', sans-serif;
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+    color: white;
+}
+
+.textcontact{
+    padding-bottom: 70px;
+    font-family: 'Barlow Condensed', sans-serif;
+    text-align: center;
+    font-size:30px;
+    /* font-weight: bold; */
+    color: white;
+
+}
+
+.icons{
+    
+  display: flex;
+  align-items: center; 
+  margin: 20px;  
+}
+
+.icon{
+font-size: 50px;
+
+}
+.iconname{
+
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+
+}
+
+.titleicon{
+
+    color: white;
+    font-size: 25px;
+    padding: 10px 25px;
+  
+
+}
+
+.buttonicon{
+background-color: #4300df;
+padding: 5px  30px;
+border-radius: 10px;
+font-size: 20px;
+margin-left: 25px;
+color: white;
+
+
+
+
+
+}
+
+
+
+.infocontact{
+    width: 50%;
+    padding: 40px 0;
+}
+
+.formcontact{
+    display: flex;
+    place-content: center;   
+
+}
+
+.form{
+    display: grid;
+    padding: 40px 60px;
+    /* border: 1px solid green; */
+    display: grid;
+    width: 100%;
+    gap: 10px;
+    
+}
+
+.enterform{
+    display: grid;
+}
+
+.input{
+    /* border: 2px solid #4879ff; */
+    background: #ffffff18;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+label{
+    color:white;
+    font-size: 20px;
+}
+
+
+.buttonform{
+
+    background-color: #4300df;
+    padding: 5px  30px;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+
+
 }

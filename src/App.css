@@ -1,8 +1,9 @@
 *{
     scroll-behavior: smooth;
+    font-family: 'Barlow Condensed', sans-serif;
 }
 .main{
-    background: linear-gradient(#0e002fd3, #0e002fd3), url("/public/images/portal.jpg");
+    background: linear-gradient(#0e002fd3, #0e002f), url("/public/images/portal.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
