@@ -2,6 +2,7 @@
 import './App.css'
 import About from './component/about/About'
 import Contact from './component/contact/Contact'
+import Footer from './component/footer/Footer'
 import Home from './component/home/Home'
 import Nav from './component/nav/Nav'
 import Projects from './component/projects/Projects'
@@ -18,6 +19,7 @@ function App() {
       <Projects/>
      <Technology/>
       <Contact/> 
+      <Footer/>
     </main>
   )
 }

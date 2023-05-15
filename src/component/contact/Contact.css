@@ -87,7 +87,7 @@ color: white;
 .form{
     display: grid;
     padding: 40px 60px;
-    border: 1px solid green;
+    /* border: 1px solid green; */
     display: grid;
     width: 100%;
     gap: 10px;
