@@ -4,7 +4,7 @@
 
 .home{
     
-    padding-top: 100px;
+    padding-top: 50px;
     min-height: 100vh;
 
    
@@ -24,11 +24,33 @@
 }
 
 .name{
+   
+    width:18ch ;
+    display: block;
     text-transform: capitalize;
-color: #87b091;
-
+    white-space:nowrap;
+    border-right: 4px solid gray;
+    color: #87b091;
     font-size: 70px;
     font-weight: bold;
+
+    animation: typing 2s steps(12), blink .5s infinite step-end alternate;
+    overflow: hidden;
+}
+
+@keyframes typing{
+    from { width: 0;
+    
+    text-align: center;
+    justify-content: center;
+    
+    }
+
+    
+}
+
+@keyframes blink {
+     50%{ border-color:transparent;}
 }
 
 .work{
@@ -152,7 +174,28 @@ justify-content: center;
     }
 
     .name{
+      margin: 0 auto;
+        justify-content: center;
+        width: 18ch;
+        text-align: center;
         font-size: 30px;
+        animation: typing 2s steps(12), blink .5s infinite step-end alternate;
+        overflow: hidden;
+    }
+    
+    @keyframes typing{
+        from { width: 0;
+        
+        text-align: center;
+        justify-content: center;
+        
+        }
+    
+        
+    }
+    
+    @keyframes blink {
+         50%{ border-color:transparent;}
     }
 
     .photo{
