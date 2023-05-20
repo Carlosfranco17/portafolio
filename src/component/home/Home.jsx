@@ -20,8 +20,8 @@ const Home = () => {
 
         <div className="profile">
           <h1 className="name">Carlos Franco Castaño</h1>
-          <h2 className="work">Systems Engineer</h2>
-          <h2 className="work">Front-End developer</h2>
+          <h2 className="work">Ingeniero De Sistemas</h2>
+          <h2 className="work">Desarrollador Web Front-End</h2>
          
 
           <div className="information">

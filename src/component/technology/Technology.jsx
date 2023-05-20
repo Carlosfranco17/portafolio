@@ -3,6 +3,8 @@ import React from 'react'
 const Technology = () => {
   return (
     <section className='technology' id='technology'>
+
+<h1 className="titleproject p-4" >TECNOLOGIAS APRENDIDAS</h1>
         
 <div className='cardtech'>
     <img src="/images/logos/html.png" alt="" />
