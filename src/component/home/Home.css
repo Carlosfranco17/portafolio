@@ -4,7 +4,7 @@
 
 .home{
     
-    padding-top: 50px;
+    padding-top: 100px;
     min-height: 100vh;
 
    
@@ -85,15 +85,19 @@
 }
 
 .img{
+    border: 2px solid #32e3e9;
     margin: 0px 0px 0px 30px;
-    width: 40%;
+    width: 30%;
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 500px;
+    padding: 20px;
 
 }
 
 .photo{
+    
     margin-left: 0px 0px 0px 10px;
 border-radius: 500px;
 
@@ -122,10 +126,11 @@ border-radius: 500px;
 
 .img{
     margin: 0px 0px 0px 30px;
-    width: 30%;
+    width: 40%;
     display: flex;
     justify-content: center;
     align-items: center;
+  
 
 
 }
@@ -141,8 +146,11 @@ border-radius: 500px;
     }
 
     .img{
-        width: 100%;
-        margin: 0;
+       
+        width: 50%;
+        margin: 0 auto;
+        padding: 10px;
+        
     }
 
     .profile{
@@ -199,7 +207,7 @@ justify-content: center;
     }
 
     .photo{
-        width: 200px;
+        width: 100%px;
     }
 
     .home{
