@@ -36,7 +36,7 @@ const Home = () => {
 
             <div className="cv">
              
-              <button className="download">Download cv</button>
+              <a className="download" target="_blank" href="/document/DevCarlosFranco.pdf">Download cv</a>
             </div>
           </div>
         </div>

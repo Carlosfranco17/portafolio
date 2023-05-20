@@ -100,9 +100,10 @@ color: white;
 
 .input{
     border: 2px solid #4879ff;
-    background: #ffffff18;
+    background:transparent;
     border-radius: 5px;
     padding: 5px 10px;
+color:  #4879ff;
 }
 
 label{
