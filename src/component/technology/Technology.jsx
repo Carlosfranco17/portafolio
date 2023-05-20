@@ -2,9 +2,12 @@ import React from 'react'
 
 const Technology = () => {
   return (
-    <section className='technology' id='technology'>
+   <section>
 
 <h1 className="titleproject p-4" >TECNOLOGIAS APRENDIDAS</h1>
+     <section className='technology' id='technology'>
+
+
         
 <div className='cardtech'>
     <img src="/images/logos/html.png" alt="" />
@@ -37,6 +40,7 @@ const Technology = () => {
 </div>
 
     </section>
+   </section>
   )
 }
 
