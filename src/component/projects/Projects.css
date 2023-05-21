@@ -27,7 +27,7 @@
     transition-duration: 2000ms;
     opacity: 0;
     animation: appear 1s ease-out forwards;
-    box-shadow: 5px 5px 20px;
+    box-shadow: 1px 1px 20px #ffffff5d;
 }
 
 

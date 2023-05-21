@@ -184,7 +184,7 @@ justify-content: center;
     .name{
       margin: 0 auto;
         justify-content: center;
-        width: 18ch;
+        width: 19ch;
         text-align: center;
         font-size: 30px;
         animation: typing 2s steps(12), blink .5s infinite step-end alternate;
